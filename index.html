@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: David Gustavson -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>David Gustavson's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        /*
+        *{
+            padding: 0;
+            margin: 0;
+        }*/
+        body {
+            background-color: #9584a3;
+            font-family: 'Work+Sans', sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body style="padding: 0; margin: 0">
+    <div class="container-fluid px-0 overflow-hidden" style="left: 0; right: 0; top: 0; width: 100%; margin: 0; padding: 0">
+            <div class="row no-gutters" style="left: 0; right: 0; top: 0; width:100%; margin: 0;">
+                <nav class="navbar navbar-expand-md
+                            justify-content-start
+                            bg-dark navbar-dark
+                            col-12"
+                    style="background-color: maroon">
+                    <!-- Brand -->
+                    <a class="navbar-brand" style="padding-left: 2em; font-family: 'EB+Garamond', serif; font-size: 25px" href="#">David Gustavson</a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href ="about.html">About me</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                   data-toggle="dropdown-menu" role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    Projects
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="antichroma.html">Antichroma</a>
+                                    <a class="dropdown-item" href="arcanedragonslayer.html">Arcane Dragonslayer</a>
+                                    <a class="dropdown-item" href="icysun.html">Icy Sun</a>
+                                </div>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link" href ="contact.html">Contact</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        <!-- CONTENT BEGIN -->
+        <div class="row">
+            <div id="carouselShowcase" class="carousel slide" data-bs-ride="carousel" style="width: 70%; margin: auto; display: block; float: right">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/AntichromaScreenshot.png" class="d-block w-100" alt="A skull-shaped character in a magenta level." style="float: right">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 style="color: darkcyan; -webkit-text-stroke: thin navy; font-size: 250%; text-shadow: navy 0 0.2em 0.6em;"><strong>ANTICHROMA<br><br></strong></h3>
+                            <p style="color: #1a1d20; font-size: 150%">Destroy all the world's color in this platformer!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ADSScreenshot.png" class="d-block w-100" alt="A wizard fighting a red dragon." style="float: right">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 style="color: black; -webkit-text-stroke: thin goldenrod; font-size: 250%; text-shadow: goldenrod 0 0.2em 0.6em;"><strong>ARCANE DRAGONSLAYER<br></strong></h3>
+                            <p style="color: silver; font-size: 150%">Slay powerful dragons in this top-down roguelite!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/FFImp%201B.png" class="d-block w-100" alt="A blue demon with a blue-glowing grin." style="float: right">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 style="color: lightskyblue; -webkit-text-stroke: thin cyan; font-size: 250%; text-shadow: aliceblue 0 0.2em 0.6em;"><strong>ICY SUN<br><br></strong></h3>
+                            <p style="font-size: 150%">An exciting new horror-esque action game in the works!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselShowcase" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselShowcase" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row" style="margin: 0.5em 6%">
+            <nav class="col-3" style="float: left">
+                My Name is David Gustavson, and I make games.<br>
+                My particular passions lie in game design, creature design, and soundtrack creation.
+                However, I am also skilled in programming and 3D asset creation.
+                I have participated in numerous Game Jams, leading to smaller games such as Antichroma.
+                I have also worked on larger projects, such as Arcane DragonSlayer, and currently have a new game in the works: Icy Sun.
+            </nav>
+            <div class="col-3" style="margin: 0 0 2rem">
+                <div class="card" style="height: 100%; padding: 0 1.3em">
+                    <img src="img/UnityLogo.png" class="card-img-top" style="background-color: black; width: 95%; margin: 0.15em; padding: revert 0;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">4 years development experience in Unity</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3" style="margin: 0 0 2rem">
+                <div class="card" style="height: 100%; padding: 0 1.3em">
+                    <img src="img/MixcraftLogo.png" class="card-img-top" style="background-color: black; width: 95%; margin: 0.15em; padding: revert 0;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">5 years soundtrack creation experience in Mixcraft</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3" style="margin: 0 0 2rem">
+                <div class="card" style="height: 100%; padding: 0 1.3em">
+                    <img src="img/UnrealLogo.png" class="card-img-top" style="background-color: black; width: 95%; margin: 0.15em; padding: revert 0;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Actively learning Unreal Engine 5</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT END -->
+    </div>
+</body>
+<footer style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: #4f1111; color: white">
+    <div class="row" style="padding: 0.1em 2em">
+        <nav class="col-4" style="margin: auto">&copy; David Gustavson 2023</nav>
+    </div>
+</footer>
+</html>
